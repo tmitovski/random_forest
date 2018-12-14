@@ -1,4 +1,9 @@
-# Random Forest for international airline passengers problem
+# Random Forest for ETHBTC (use sample code 1)
+# a) Use Sep1 2017 to Sep1 2018 to train and test
+# b) Use Sep1 2017 to Jun1 2018 to train and Jun1 2018 to sep1 2018 to test
+# test whether a) and b) give similar results
+###########################################################################
+
 import numpy
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,6 +17,8 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 import sys
 from netCDF4 import Dataset
+
+###########################################################################
 
 # convert an array of values into a dataset matrix
 def create_dataset(dataset, look_back):
