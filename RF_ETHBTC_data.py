@@ -34,7 +34,7 @@ def create_dataset(dataset, look_back):
 numpy.random.seed(7)
 
 # load the dataset'
-data1 = Dataset('/home/toni/Desktop/Git/random_forest/THBTC_1hour_Sep1_2017_Sep1_2018.nc')
+data1 = Dataset('/home/toni/Desktop/Git/random_forest/ETHBTC_1hour_Sep1_2017_Sep1_2018.nc')
 data2 = data1.variables['klines']
 # sorted in the order: columns=list(['Open', 'High', 'Low', 'Close', 'Volume']))
 nlen = len(data2[:,3])
