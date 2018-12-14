@@ -2,6 +2,7 @@
 # a) Use Sep1 2017 to Sep1 2018 to train and test
 # b) Use Sep1 2017 to Jun1 2018 to train and Jun1 2018 to sep1 2018 to test
 # test whether a) and b) give similar results
+
 ###########################################################################
 
 import numpy
